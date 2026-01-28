@@ -1,15 +1,19 @@
 import 'package:flutter/material.dart';
 
-class BmiUi extends StatefulWidget {
-  const BmiUi({super.key});
+class BmrUi extends StatefulWidget {
+  const BmrUi({super.key});
 
   @override
-  State<BmiUi> createState() => _BmiUiState();
+  State<BmrUi> createState() => _BmrUiState();
 }
 
-class _BmiUiState extends State<BmiUi> {
+class _BmrUiState extends State<BmrUi> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(
+        child: Text('BMR'),
+      ),
+    );
   }
 }
