@@ -20,7 +20,6 @@ class _SplashScreenUiState extends State<SplashScreenUi> {
     });
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
