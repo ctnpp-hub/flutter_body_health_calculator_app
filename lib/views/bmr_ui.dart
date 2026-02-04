@@ -35,7 +35,7 @@ class _BmrUiState extends State<BmrUi> {
                 ),
                 SizedBox(height: 30),
                 Image.asset(
-                  'assets/images/bmi.png',
+                  'assets/images/bmr.png',
                   width: 160,
                   height: 160,
                   fit: BoxFit.cover,
